@@ -1,13 +1,16 @@
-name : learn-github-actions
+name : learn-github-actions  # name of the action,optional
 
-on : [push]
+on : [push]  # trigger,makes changes everytime change is pushed. There are several,ie on pull,merge
 
-jobs:
+jobs:  # jobs to be done on workflow
     print-html-content :
       runs-on : ubuntu-latest
-      steps : 
+      steps : # step or a task
           - name : Checkout code
             uses: actions/checkout@v4
 
           - name : Print HTML content
             run : cat index.html 
+
+          - name : List all items
+            run : ls
