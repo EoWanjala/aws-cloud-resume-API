@@ -1,16 +1,21 @@
-name : learn-github-actions  # name of the action,optional
+name: Upload Website #name the function as you wish
 
-on : [push]  # trigger,makes changes everytime change is pushed. There are several,ie on pull,merge
+on:
+  push:
+    branches:
+    - master
 
-jobs:  # jobs to be done on workflow
-    print-html-content :
-      runs-on : ubuntu-latest
-      steps : # step or a task
-          - name : Checkout code
-            uses: actions/checkout@v4
-
-          - name : Print HTML content
-            run : cat index.html 
-
-          - name : List all items
-            run : ls
+jobs:
+  deploy:
+    runs-on: ubuntu-latest #Input the appropriate OS
+    steps:
+    - uses: actions/checkout@master
+    - uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --follow-symlinks --delete
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_REGION: eu-north-1 #input the region 
+        AWS_S3_GRANT_WRITE: 'arn:aws:iam::533267164916:user/erikow'
