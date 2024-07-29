@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@main
+        uses: actions/checkout@v2
         
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -20,6 +20,11 @@ jobs:
           aws-region: eu-north-1
           role-to-assume: arn:aws:iam::533267164916:role/wanjala_role
 
+      - name: List files
+        run: |
+          pwd
+          ls -la
+
       - name: Sync files to S3
         run: |
-          aws s3 sync . s3://ericwanjala.buzz --exclude "*" --include "../EricGithubActions/eric_resume.html" --delete
+          aws s3 sync . s3://ericwanjala.buzz --exclude "*" --include "EricGithubActions/eric_resume.html" --delete
