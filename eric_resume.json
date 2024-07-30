@@ -1,0 +1,243 @@
+{
+  "doc": {
+    "S": "1"
+  },
+  "about": {
+    "S": "I am a highly motivated and ardent cloud practitioner keen on improving my self and learning in every sense. I have confidence in my ability to applying and adding to roles involved positively. I also regard myself a leader at personal capacity always,struggling for self growth. My diverse skillset from engineering to cloud Computing have also positively improved my association,communication and problem solving skills."
+  },
+  "contact": {
+    "M": {
+      "email": {
+        "S": "ericwanjala68@gmail.com"
+      },
+      "linkedin": {
+        "S": "www.linkedin.com/in/eric-wanjala-8733a5219"
+      },
+      "phone": {
+        "N": "0748058950"
+      }
+    }
+  },
+  "education": {
+    "M": {
+      "degree": {
+        "S": "Bachelor of Science (B.S.) Telecommunication and Information Engineering"
+      },
+      "duration": {
+        "S": "May,2019 - May,2024"
+      },
+      "institution": {
+        "S": "Undergraduate"
+      },
+      "skills": {
+        "M": {
+          "a": {
+            "S": "Python and MATLAB Programming"
+          },
+          "b": {
+            "S": "Networking"
+          },
+          "c": {
+            "S": "Satellite and Antenna technology"
+          }
+        }
+      }
+    }
+  },
+  "experience": {
+    "M": {
+      "1": {
+        "M": {
+          "company": {
+            "S": "CloudMyTribe"
+          },
+          "duration": {
+            "S": "2024 - Present"
+          },
+          "position": {
+            "S": "Developer"
+          },
+          "responsibilities": {
+            "M": {
+              "1": {
+                "S": "Assisted in the implementation of new technologies and best practices, increasing project efficiency by 20%"
+              },
+              "2": {
+                "S": "Wrote extensive documents outlining critical programming requirements and procedures"
+              },
+              "3": {
+                "S": "Developed test plans and executed unit tests to ensure accuracy and reliability of solutions before deployments"
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "M": {
+          "company": {
+            "S": "Impala Africa Technologies"
+          },
+          "duration": {
+            "S": "January,2023 -March, 2023"
+          },
+          "position": {
+            "S": "Technical Assistant- Intern"
+          },
+          "responsibilities": {
+            "M": {
+              "1": {
+                "S": "Troubleshot network connectivity issues using various diagnostic tools such as ping tests or traceroutes and Wireshark."
+              },
+              "2": {
+                "S": "Fiber optics installation and maintenance."
+              }
+            }
+          }
+        }
+      },
+      "3": {
+        "M": {
+          "company": {
+            "S": "Powward Limited"
+          },
+          "duration": {
+            "S": "January,2022 -March, 2022"
+          },
+          "position": {
+            "S": "Technical Assistant- Intern"
+          },
+          "responsibilities": {
+            "M": {
+              "1": {
+                "S": "Assembly of ebikes"
+              },
+              "2": {
+                "S": "Maintenance of electric vehiclese."
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "name": {
+    "S": "Eric Wanjala"
+  },
+  "profession": {
+    "S": "Telecommunications Engineer"
+  },
+  "projects": {
+    "M": {
+      "description": {
+        "S": "Entailed circuit design for the station using proteus, coding raspberry pi microcomputer and actualizing the electrical circuitry and wiring for integration."
+      },
+      "description1": {
+        "S": "Built with HTML, CSS, Javascript and Python."
+      },
+      "name": {
+        "S": "Automated billing and shopping station using RFID"
+      },
+      "name1": {
+        "S": "Personal Portfolio Website"
+      }
+    }
+  },
+  "reference": {
+    "M": {
+      "1": {
+        "M": {
+          "contact": {
+            "M": {
+              "email": {
+                "S": "paulmuhia@gmail.com"
+              },
+              "phone": {
+                "N": "741173640"
+              }
+            }
+          },
+          "name": {
+            "S": "Mr. Paul Muhia"
+          },
+          "position": {
+            "S": "Engineer, Powward Limited"
+          }
+        }
+      },
+      "2": {
+        "M": {
+          "contact": {
+            "M": {
+              "email": {
+                "S": "sharonchepkirui@gmail.com"
+              },
+              "phone": {
+                "N": "254726634388"
+              }
+            }
+          },
+          "name": {
+            "S": "Mrs. Sharon Chepkirui"
+          },
+          "position": {
+            "S": "Supervisor, Impala Africa Technologies"
+          }
+        }
+      },
+      "3": {
+        "M": {
+          "contact": {
+            "M": {
+              "email": {
+                "S": "edwell.tafara@dkut.ac.ke"
+              },
+              "phone": {
+                "N": "254791800083"
+              }
+            }
+          },
+          "name": {
+            "S": "Dr. Edwell Tafara Mharakurwa"
+          },
+          "position": {
+            "S": "C.O.D, Electrical and Electronics Engineering Dedan Kimathi University of Technology"
+          }
+        }
+      }
+    }
+  },
+  "skills": {
+    "M": {
+      "level1": {
+        "S": "proficient"
+      },
+      "level2": {
+        "S": "proficient"
+      },
+      "level3": {
+        "S": "proficient"
+      },
+      "level4": {
+        "S": "proficient"
+      },
+      "level5": {
+        "S": "proficient"
+      },
+      "name1": {
+        "S": "Python"
+      },
+      "name2": {
+        "S": "AWS"
+      },
+      "name3": {
+        "S": "SQL"
+      },
+      "name4": {
+        "S": "Networking"
+      },
+      "name5": {
+        "S": "Fiber optics termination"
+      }
+    }
+  }
+}
